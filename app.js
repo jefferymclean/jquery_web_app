@@ -1,7 +1,7 @@
 $(function() {
 
   	$("ul").on( "click", "li", function() {
-    	$(this).remove();
+    	$(this).fadeOut();
     });
 
 	$('#btn-add-item').click( function() {
