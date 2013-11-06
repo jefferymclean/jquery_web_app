@@ -1,0 +1,33 @@
+body {
+  background-color: #FFFF7D; }
+
+ul li {
+  text-align: center;
+  font-family: Georgia;
+  font-size: 20px;
+  list-style: none;
+  border: 2px; }
+
+button {
+  font-size: 1.0em;
+  color: red;
+  height: 25px;
+  width: 100px;
+  padding: 0px 0px 0px 3px;
+  /* border-radius: 30%; */ }
+
+#list_div {
+  border: lightblue 5px solid;
+  text-align: center;
+  width: 300px;
+  margin-left: 550px; }
+
+.jumbotron {
+  text-align: center; }
+
+#navbar-div {
+  text-align: center; }
+
+#btn-add-item {
+  background-color: lightblue;
+  margin-left: 10px; }
