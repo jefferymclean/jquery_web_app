@@ -6,15 +6,14 @@ $(function() {
 
 	$('#btn-add-item').click( function() {
 		//alert('You added an item!');
-		bla = $('#txt_name').val();
+
+		var bla = $('#txt_name').val();
 		$("#list").append("<li>" + bla + "</li>");
-		//$(this).closest('li').slideUp().remove();
+		//$(this).closest('bli').slideUp().remove();
     	$("#txt_name").val("");
     	                                      
-		
-
+		});
 	});
-});
 
 
 
